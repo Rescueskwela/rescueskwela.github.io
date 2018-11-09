@@ -29,6 +29,17 @@ div.sticky2 {
 a.buttoncolor{
 	background-color: #092134 !important;
 	color: white;
+	height: 40px;
+	width: 200px;
+}
+
+li.sidebutton, li.quickstart-text{
+	/*padding: 30px;*/
+	list-style-type: none;
+}
+
+li.quickstart-text{
+	width: 300px;
 }
 
 /*------------------------------------------------------------------------------*/
