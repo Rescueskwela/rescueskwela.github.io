@@ -33,6 +33,14 @@ a.buttoncolor{
 	width: 200px;
 }
 
+.button-scheme:hover{
+	color: #F35D00 !important;
+}
+
+a.unavailable:hover{
+	background-color: red !important;
+}
+
 li.sidebutton, li.quickstart-text{
 	/*padding: 30px;*/
 	list-style-type: none;

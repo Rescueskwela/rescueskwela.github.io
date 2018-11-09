@@ -1,0 +1,25 @@
+<h2 class="card-title">Tungkol sa Proyekto</h2>
+              <p class="card-text"> Ang Rescueskwela ay isang internet-based Distance Learning System (DLS) tungkol sa emergency response tuwing may bagyo. Ang DLS ay isang uri ng... </p>
+
+
+Phase 2 Production - Module layouts 
+
+
+
+Use google forms submit button  to redirect to next site
+
+
+
+mgt 111
+mgt 1
+soc 130
+devc 145
+devc 197
+cmsc 22
+
+------
+
+Google Form:
+
+Upload photo
+	-> e.g. for knots
