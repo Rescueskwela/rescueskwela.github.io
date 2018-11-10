@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Rescueskwela</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/Modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/blog-home.css" rel="stylesheet">
+    <link href="css/blog-post.css" rel="stylesheet">
+
+    <link href = "css/secnav.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+          <h1 id ="greeting"><h1 class="my-4">, Kababayan sa Rescueskwela!</h1></h1>
+          <hr>
+
+    <script>
+      function myFunction() {
+          var greeting;
+          var time = new Date().getHours();
+          if (time < 12) {
+              greeting = "<strong>Good Morning!</strong>";
+          } else if (time < 13) {
+          greeting = "<strong>Whoa. It's Noon. Had Lunch Yet?</strong>"
+        } else if (time < 18) {
+              greeting = "<strong>Good Afternoon!</strong>";
+          } else {
+              greeting = "<strong>Good Evening!</strong>";
+          }
+      document.getElementById("greeting").innerHTML = greeting;
+      }
+    </script>
+
+    
+
+  </body>
+
+</html>

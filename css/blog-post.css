@@ -4,14 +4,36 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
  */
 
+
 body {
   padding-top: 54px;
 }
+
+/*html, body{
+	*background-image: url("img/post-bg.jpeg");
+	 background-color: #333;
+	 height: 100%;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-position: fixed;
+	 height: 100%;
+}*/
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
+}
+
+
+@font-face{
+  font-family: "lightning";
+  src: url("fonts/Lightning.ttf");
+}
+
+span.orange{
+	color:#F35D00;
 }
 
 div.sticky {
