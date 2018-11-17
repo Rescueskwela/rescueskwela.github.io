@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="A learning system that incorporates bootstrap along with new functions as said in the Revisions.txt file">
+    <meta name="author" content="Owen John C. de Leon">
 
     <title>Rescueskwela Official</title>
 
@@ -15,10 +15,12 @@
 
     <!-- Custom styles for this template -->
     <link href="Home/css/modern-business.css" rel="stylesheet">
+    <link href="css/secnav.css" rel="stylesheet">
+    <link href="css/blog-post.css" rel="stylesheet">
 
   </head>
 
-  <body>
+  <body onpageshow="Greeting()">
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -30,51 +32,17 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="about.html">Home</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Tungkol sa Proyekto</a>
+              <a class="nav-link" href="tungkol1.html">Tungkol sa Proyekto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Mga Aralin</a>
+              <a class="nav-link" href="aralin.html">Mga Aralin</a>
             </li>
             <li class ="nav-tem">
-              <a class = "nav-link" href = "#"> Makipag-ugnayan </a>
+              <a class = "nav-link" href = "makipagugnay.html"> Makipag-ugnayan </a>
             </li>
-<!--             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Portfolio
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Blog
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-                <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-                <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Other Pages
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-                <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-                <a class="dropdown-item" href="faq.html">FAQ</a>
-                <a class="dropdown-item" href="404.html">404</a>
-                <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-              </div>
-            </li> -->
           </ul>
         </div>
       </div>
@@ -88,42 +56,99 @@
     <div class="container">
 
       <h1 class="my-4">Welcome to Rescueskwela!</h1>
-      <p>Magandang umaga, kababayan! Welcome sa ating Internet-Based Learning System (IBLS) para sa pag-aaral ng first aid at water and search rescue (WASAR).</p>
+      <p><span id="greeting"></span> kababayan! Welcome sa ating Internet-Based Learning System (IBLS) para sa pag-aaral ng first aid at water and search rescue (WASAR). </p>
       <hr>
 
-      <!-- Marketing Icons Section -->
+      <!-- Icons Section -->
       <div class="row">
+        <a href = "aralin.html">
         <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Mga Aralin</h4>
+          <div class="card h-100 pic-hover">
+            <img class="card-img-top card-text" src="img/Rescuers/PHMario.jpg" width="100px" height = "200px" alt="Panoorin at basahin na mga modules, at sagutan ang kaunting pagsusulit." class="image-hover">
+            
+
+              <div class="overlay-hover">
+              <div class="text-hover min">
+                <h2 class="card-title"><center>Mga Aralin</center> </h2>
+                <p class="card-text">Matuto sa panonood ng video </p>
+                <p class="card-text">at pagbabasa ng module. </p>
+<!--                 <p class="card-text"> Ang module na ito ay may apat
+                <p class="card-text"> na aralin: </p> -->
+<!--          <ul class="card-text">
+                  <li>Aralin 1 – Introduksyon sa Bagyo at Water Search and Rescue;</li>
+                  <li>Aralin 2 – Primary Assessment;</li>
+                  <li>Aralin 3 – Secondary Assessment; at</li>
+                  <li>Aralin 4 – Treatment</li>
+                </ul> -->
+              </div>
+
+              </div>  </a>
+            
+            <!-- </div> -->
+
             <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+              <h4><Center>Mga Aralin</Center></h4>
             </div>
             <div class="card-footer">
             </div>
           </div>
         </div>
+
+
+        <a href = tungkol1.html>
         <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Tungkol sa Proyekto</h4>
+          <div class="card h-100 pic-hover">
+            <img class="card-img-top card-text" src="img/Rescuers/rescue1.jpeg" width="100px" height = "200px" alt="Panoorin at basahin na mga modules, at sagutan ang kaunting pagsusulit." class="image-hover">
+            
+
+              <div class="overlay-hover">
+              <div class="text-hover min">
+                <h2 class="card-title"><center>Tungkol sa Proyekto</center> </h2>
+                <p class="card-text">Alamin kung paano nagsimula </p>
+                <p class="card-text"> ang “Rescueskwela”. </p>
+              </div>
+
+              </div>  </a>
+            
             <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+              <h4><Center>Tungkol sa Proyekto</Center></h4>
             </div>
             <div class="card-footer">
             </div>
           </div>
         </div>
+
+
+        <a href = makipagugnay.html>
         <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Makipag-ugnayan</h4>
+          <div class="card h-100 pic-hover">
+            <img class="card-img-top card-text" src="img/Group/IMG_20180831_makipagugnay.jpg" width="100px" height = "200px" alt="Panoorin at basahin na mga modules, at sagutan ang kaunting pagsusulit." class="image-hover">
+            
+
+              <div class="overlay-hover">
+              <div class="text-hover min">
+                <h2 class="card-title"><center>Makipag-ugnayan</center> </h2>
+                <p class="card-text">Mayroon ka bang katanungan, </p> 
+                <p class="card-text">suhestyon, komento? Maaari mo </p>
+                <p class="card-text">itong ipadala sa</p>
+                <p class="card-text">rescueskwela@gmail.com o kaya</p>
+                <p class="card-text">ay ibahagi sa amin sa pamamagitan </p>
+                <p class="card-text">ng contact form na ito. </p>
+              </div>
+
+              </div>  </a>
+            
             <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+              <h4><Center>Makipag-ugnayan</Center></h4>
             </div>
             <div class="card-footer">
             </div>
           </div>
         </div>
       </div>
+
+
+
       <!-- /.row -->
 
       <hr>
@@ -144,6 +169,22 @@
     <!-- Bootstrap core JavaScript -->
     <script src="Home/vendor/jquery/jquery.min.js"></script>
     <script src="Home/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+      function Greeting() {
+          var greeting;
+          var time = new Date().getHours();
+          if (time < 12) {
+              greeting = "Magandang umaga,";
+          } else if (time < 19) {
+          greeting = "Magandang hapon,"
+          } else {
+              greeting = "Magandang gabi,";
+          }
+      document.getElementById("greeting").innerHTML = greeting;
+      }
+    </script>
 
   </body>
 
