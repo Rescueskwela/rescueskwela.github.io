@@ -124,6 +124,15 @@ div.min{
 .card-header{
   background-color: #092134;
   background-color: rgb(9, 33, 52, .70);
+  color: white;
+}
+
+.footer-index{
+  background-color: #092134 !important;
+}
+
+a.nav-link:hover, li.active{
+  background-color: #F35D00;
 }
 
 
@@ -146,6 +155,10 @@ div.min{
   z-index: 1;
   width: 100%;
   background-color: #f1f1f1;
+}
+
+.border-container{
+  background: #F35D00;
 }
 
 /*</style>

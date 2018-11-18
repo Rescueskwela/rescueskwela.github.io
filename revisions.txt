@@ -1,0 +1,17 @@
+https://publish.twitter.com/
+
+Modifications for the Bootstrap
+- Changed navigation bar functions (such as active background-color)
+- Added side navigation bars and secondary navigation bars (see aralin.html and module-related html)
+- Added Twitter and Facebook share buttons
+- Changed color scheme to complement the theme of the site
+- Changed and added images
+- Added overlay hover (see index.html)
+- modified the line-height in some parts
+- added border (rescue orange) below navbar
+- Revised most css files
+- Added the Progress bar
+- used the "!important" keyword for other css to specify
+- added the prompt when accessing modules
+- added downloadable pdfs (see Module 1 or 2>Print Module)
+- added greeting that changes depending on time using javascript
