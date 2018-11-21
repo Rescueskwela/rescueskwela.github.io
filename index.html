@@ -23,6 +23,20 @@
   </head>
 
   <body onpageshow="Greeting()">
+    <script>
+      function Greeting() {
+          var greeting;
+          var time = new Date().getHours();
+          if (time < 12) {
+              greeting = "Magandang umaga,";
+          } else if (time < 19) {
+          greeting = "Magandang hapon,"
+          } else {
+              greeting = "Magandang gabi,";
+          }
+      document.getElementById("greeting").innerHTML = greeting;
+      }
+    </script>
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
