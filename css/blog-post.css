@@ -167,6 +167,21 @@ a.nav-link:hover, li.active{
   background: #F35D00;
 }
 
+
+/*
+For slides
+*/
+
+.slide{
+  display: none;
+  height: 400px;
+  width: auto;
+
+}
+
+
+
+
 /*</style>
 </head>
 <body>
